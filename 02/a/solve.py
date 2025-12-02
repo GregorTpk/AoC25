@@ -1,7 +1,7 @@
 import os
 import re
 
-os.getcwd
+#os.getcwd
 input = open("02/input.txt").read()
 input = re.split(",|\n", input)
 
