@@ -10,8 +10,16 @@ Fetches changes from origin, moves e.g. origin/master
 ### Push
 
 `git push <remote> <branch>`
+<<<<<<< Updated upstream
 Pushes `<branch>` to `<remote>`
 `git push <remote> <branch>:<remotebranch>`
+=======
+
+Pushes `<branch>` to `<remote>`
+
+`git push <remote> <branch>:<remotebranch>`
+
+>>>>>>> Stashed changes
 Pushes `<branch>` but it is called `<remotebranch>` in `<remote>`
 
 
