@@ -1,2 +1,2 @@
 #Allows puzzle input to be saved locally without it being uploaded to remote repository
-input.txt
+input*.txt
