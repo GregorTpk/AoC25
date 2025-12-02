@@ -1,13 +1,13 @@
 
-###Fetch
+### Fetch
 
 https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches
 
 `git fetch origin`
 
-# Fetches changes from origin, moves e.g. origin/master
+Fetches changes from origin, moves e.g. origin/master
 
-###Push
+### Push
 
 `git push <remote> <branch>`
 Pushes `<branch>` to `<remote>`
@@ -15,7 +15,7 @@ Pushes `<branch>` to `<remote>`
 Pushes `<branch>` but it is called `<remotebranch>` in `<remote>`
 
 
-###Merge
+### Merge
 
 `git merge <branch>`
 
