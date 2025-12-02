@@ -19,6 +19,7 @@ def solve(filepath):
     invalid_ids = []
     spairs = None
 
+    #Read input-file as string-pairs and integer-pairs
     with open(filepath, "r") as f:
         spairs = [p.split("-") for p in f.read().strip().split(",")]
         ipairs = [(int(p0), int(p1)) for p0, p1 in spairs]
@@ -26,11 +27,14 @@ def solve(filepath):
     if spairs != None:
         for spair, ipair in zip(spairs, ipairs):
 
-            #Treat each id-length in the intervall individually
+            #Iterate over lengths (digit-counts) of the ids in current interval
             for id_length in range(len(spair[0]), len(spair[1])+1):
+
+                #Iterate over potential lengths of a pattern
                 for pattern_length in get_divisors(id_length):
                     repetitions = id_length // pattern_length
 
+                    #Omit ids outside given interval
                     if id_length == len(spair[0]):
                         pattern_lower_bound = int(spair[0][:pattern_length])
 
@@ -47,7 +51,9 @@ def solve(filepath):
                     else:
                         pattern_upper_bound = 10**pattern_length - 1
 
+                    #Iterate over potential patterns of lenggth pattern_length
                     for pattern in range(pattern_lower_bound, pattern_upper_bound+1):
+                        #Only consider primitive patterns
                         if is_primitive_pattern(str(pattern)):
                             inv_id = get_invalid_id(pattern, repetitions)
                             invalid_ids.append(inv_id)
