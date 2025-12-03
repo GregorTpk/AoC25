@@ -1,7 +1,7 @@
 
 ## Terminology
-* *remote-tracking branch*: E.g. `origin/main`: It is a read-only mirror of the corresponding branch in remote. Tracking branches are updated e.g. by `fetch`. See below for getting/setting the tracked branch.
-* *upstream branch*: The branch on remote, a local branch pushes to or pulls from. This is not quite the same as a *remote tracking branch*, which only is a local mirror.
+* **remote-tracking branch**: E.g. `origin/main`: It is a read-only mirror of the corresponding branch in remote. Tracking branches are updated e.g. by `fetch`. See below for getting/setting the tracked branch.
+* **upstream branch**: The branch on remote, a local branch pushes to or pulls from. This is not quite the same as a **remote tracking branch**, which only is a local mirror.
 
 ## Commands
 
@@ -34,7 +34,7 @@ Pushes `<branch>` but it is called `<remotebranch>` in `<remote>`
 
 Replays changes made on `<branch>` since it diverged from current branch on top of current branch.
 
-*Warning*: Running git merge with non-trivial uncommitted changes is discouraged: while possible, it may leave you in a state that is hard to back out of in the case of a conflict. 
+**Warning**: Running git merge with non-trivial uncommitted changes is discouraged: while possible, it may leave you in a state that is hard to back out of in the case of a conflict. 
 
 ### Stash
 
@@ -54,7 +54,7 @@ You can see all entries on the stash with
 
 `git stash list`.
 
-*Note*: Only tracked files can be stashed. If you want to stash a new file, that is not indexed by git, you need to do `git add path/to/file` before you stash it.
+**Note**: Only tracked files can be stashed. If you want to stash a new file, that is not indexed by git, you need to do `git add path/to/file` before you stash it.
 
 
 ## Scenarios
@@ -64,7 +64,9 @@ You can see all entries on the stash with
 Let's assume, you forgot to create a new branch first and have accidentally committed onto `main`. If you have not pushed already, you can fix it by
 
 `git reset --soft HEAD~1` to undo the commit and add the undone changes to the staging area
+
 `git checkout my_branch` or `git checkout -b my_new_branch`
+
 `git commit`
 
 #### Get/Set Upstream Branch
