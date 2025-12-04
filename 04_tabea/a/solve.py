@@ -2,6 +2,9 @@ import os, sys, time
 
 PAPER = "@"
 EMPTY = "."
+DIRECTIONS = [  (-1, -1),   (-1, 0),    (-1, 1),
+                (0, -1),                (0, 1),
+                (1, -1),    (1, 0),     (1, 1)]
 
 def solve(filename):
     with open(filename, 'r') as f:
@@ -22,10 +25,7 @@ def solve(filename):
 
 def count_neighbour(i,j,grid):
     n_neigbours = 0
-    directions = [  (-1, -1),   (-1, 0),    (-1, 1),
-                    (0, -1),                (0, 1),
-                    (1, -1),    (1, 0),     (1, 1)]
-    for d in directions:
+    for d in DIRECTIONS:
         di, dj = d
         ni, nj = i + di, j + dj
         if 0 <= ni < len(grid) and 0 <= nj < len(grid[i]):
