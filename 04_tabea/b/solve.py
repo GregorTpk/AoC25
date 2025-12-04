@@ -1,4 +1,4 @@
-import os, sys
+import os, sys, time
 
 PAPER = "@"
 EMPTY = "."
@@ -56,7 +56,10 @@ if __name__ == "__main__":
         filepath = "input.txt"
 
     if os.path.isfile(filepath):
+        t1 = time.time()
         results = solve(filepath)
+        t2 = time.time()
+        print("Runtime: ", t2-t1)
         print(results)
     else:
         print("There is no such file")

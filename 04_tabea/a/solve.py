@@ -1,4 +1,4 @@
-import os, sys
+import os, sys, time
 
 PAPER = "@"
 EMPTY = "."
@@ -13,12 +13,11 @@ def solve(filename):
     count_accessible_paper = 0
     for y_index, y in enumerate(inp):
         for x_index, x in enumerate(inp[y_index]):
-            if inp[y_index][x_index] == PAPER:
+            if inp[y_index][x_index] == PAPER or inp[y_index][x_index] == "x":
                 n_neigbours = count_neighbour(y_index, x_index, inp)
                 if n_neigbours < 4:
                     count_accessible_paper += 1
-                    accessibility[y_index][x_index] = x
-                    print("accessible paper at: ", y_index, x_index, " with ", n_neigbours, " neigbours")
+                    accessibility[y_index][x_index] = "x"
     return count_accessible_paper
 
 def count_neighbour(i,j,grid):
@@ -30,7 +29,7 @@ def count_neighbour(i,j,grid):
         di, dj = d
         ni, nj = i + di, j + dj
         if 0 <= ni < len(grid) and 0 <= nj < len(grid[i]):
-            if grid[ni][nj] == PAPER:
+            if grid[ni][nj] == PAPER or grid[ni][nj] == "x":
                 n_neigbours += 1
     return n_neigbours
 
@@ -41,7 +40,10 @@ if __name__ == "__main__":
         filepath = "input.txt"
 
     if os.path.isfile(filepath):
+        t1 = time.time()
         results = solve(filepath)
+        t2 = time.time()
+        print("Runtime: ", t2-t1)
         print(results)
     else:
         print("There is no such file")
