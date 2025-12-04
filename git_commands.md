@@ -38,7 +38,7 @@ Replays changes made on `<branch>` since it diverged from current branch on top 
 
 ### Stash
 
-Quick way to return to a clean working directory without discarding not committing changes to tracked files. The stash works like a stack where you can push and pop entries: You can push all changes in the working directory with
+Quick way to return to a clean working directory without discarding nor committing changes to tracked files. The stash works like a stack where you can push and pop entries: You can push all changes in the working directory with
 
 `git stash` or more explicitly `git push`
 
@@ -75,7 +75,7 @@ If you want to pull/push onto/from a local branch `my_branch` and get a fatal er
 
 `git branch --set-upstream-to=origin/<branch> my_branch`.
 
-You can view the set upstream branch with
+You can view the set upstream branches with
 
 `git branch -vv`
 
