@@ -1,11 +1,17 @@
 import os, sys
+import time
 
-PRINT_GRID = False
+PRINT_GRID = True
 
-NEIGHBOR_LIMIT = 4
+#NEIGHBOR_LIMIT = 4
+#ACCESSIBLE_PAPER_NEIGHBOR_COUNT = [0, 1, 2, 3]
+#Game of Life rules
+ACCESSIBLE_PAPER_NEIGHBOR_COUNT = [0, 1, 4, 5, 6, 7, 8]
+SPAWN_PAPER_NEIGHBOR_COUNT = [3]
 
-PAPER = "@"
+PAPER = "O"
 SPACE = "."
+ACCESSIBLE_PAPER = "O" # "x"
 
 def update_neighbors(neighbor_counts, i, only_neighbors):
     if i > 0:
@@ -23,10 +29,10 @@ def count_valid_tiles(line, line_neighbor_counts):
 
     s = 0
     for tile, n_count in zip(line, line_neighbor_counts):
-        if tile == PAPER and n_count < NEIGHBOR_LIMIT:
+        if tile == PAPER and n_count in ACCESSIBLE_PAPER_NEIGHBOR_COUNT: #n_count < NEIGHBOR_LIMIT:
             s += 1
             if PRINT_GRID:
-                answer_line += "x"
+                answer_line += ACCESSIBLE_PAPER
         elif PRINT_GRID:
             answer_line += tile
     if PRINT_GRID:
@@ -36,8 +42,10 @@ def count_valid_tiles(line, line_neighbor_counts):
 def remove_paper(line, line_neighbor_counts):
     newline = []
     for tile, n_count in zip(line, line_neighbor_counts):
-        if tile == PAPER and n_count < NEIGHBOR_LIMIT:
+        if tile == PAPER and n_count in ACCESSIBLE_PAPER_NEIGHBOR_COUNT: #n_count < NEIGHBOR_LIMIT:
             newline.append(SPACE)
+        elif tile == SPACE and n_count in SPAWN_PAPER_NEIGHBOR_COUNT:
+            newline.append(PAPER)
         else:
             newline.append(tile)
     return newline
@@ -91,6 +99,8 @@ def solve(filename):
         if PRINT_GRID:
             print()
 
+        time.sleep(0.075)
+
     return total_removed_count
 
 
@@ -98,9 +108,11 @@ if __name__ == "__main__":
     if len(sys.argv) >= 2:
         filepath = sys.argv[1]
     else:
-        filepath = "input.txt"
+        filepath = "gol_glider_gun.txt" #"input.txt"
 
     if os.path.isfile(filepath):
+        starttime = time.time()
         print(solve(filepath))
+        print(time.time()-starttime)
     else:
         print("There is no such file")
