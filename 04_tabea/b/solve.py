@@ -17,8 +17,8 @@ def solve(filename):
         total_accessible_paper += accessible_paper_per_round                
         if accessible_paper_per_round == 0:
             has_removed_paper = False
-    
-    return total_accessible_paper  
+
+    return total_accessible_paper
 
 def accessible_paper(grid):
     # Output: new map, where the accesible papers, and therfore removed papers are marked as x
