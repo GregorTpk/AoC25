@@ -13,20 +13,21 @@
 
 https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches
 
-`git fetch origin`
-
-Fetches changes from origin, moves e.g. origin/master
-
 ### Push
+
+Push a branch to a specified remote repository via
 
 `git push <remote> <branch>`
 
-Pushes `<branch>` to `<remote>`. For example `git push origin my_branch`
+for example `git push origin my_branch`. Give the remote branch a different name with
 
-`git push <remote> <branch>:<remotebranch>`
+`git push <remote> <branch>:<remotebranch>`,
 
-Pushes `<branch>` but it is called `<remotebranch>` in `<remote>`
+which pushes `<branch>` but it is called `<remotebranch>` in `<remote>`.
 
+If push throws a fatal error that there is no upstream branch, you can set it and push with
+
+`git push --set-upstream <remote> <branch>`
 
 ### Merge
 
@@ -40,7 +41,7 @@ Replays changes made on `<branch>` since it diverged from current branch on top 
 
 Quick way to return to a clean working directory without discarding nor committing changes to tracked files. The stash works like a stack where you can push and pop entries: You can push all changes in the working directory with
 
-`git stash` or more explicitly `git push`
+`git stash` or more explicitly `git stash push`
 
 or push only selected files with
 
