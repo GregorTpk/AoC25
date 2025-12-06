@@ -40,7 +40,7 @@ Replays changes made on `<branch>` since it diverged from current branch on top 
 
 Quick way to return to a clean working directory without discarding nor committing changes to tracked files. The stash works like a stack where you can push and pop entries: You can push all changes in the working directory with
 
-`git stash` or more explicitly `git push`
+`git stash` or more explicitly `git stash push`
 
 or push only selected files with
 
