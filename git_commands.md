@@ -1,21 +1,35 @@
 
 ## Terminology
+* **remote** (repository): A repository you may pull from/push to, which is not the local repository you are working with. For example a repository saved on github.
 * **remote-tracking branch**: E.g. `origin/main`: It is a read-only mirror of the corresponding branch in remote. Tracking branches are updated e.g. by `fetch`. See below for getting/setting the tracked branch.
+* **repository**: A copy of the project (folder and subfolders) managed by git. It is defined by the ".git"-folder on its top-level. If you are working collaboratively, there may be multiple repositories: E.g. one on a server (such as github) and one locally for each collaborator.
 * **upstream branch**: The branch on remote, a local branch pushes to or pulls from. This is not quite the same as a **remote tracking branch**, which only is a local mirror.
 
 ## Commands
 
 ### Fetch/Pull
 
-`fetch [remote]` retrieves changes from a remote, by default from `origin`. These changes are applied to the remote-tracking branches, e.g. `origin/main`. But neither the local branches, e.g. `main`, nor the working directory are changed.
+`git fetch [remote]` retrieves changes from a remote, by default from `origin`. These changes are applied to the remote-tracking branches, e.g. `origin/main`. But neither the local branches, e.g. `main`, nor the working directory are changed.
 
 `pull` on the other hand does a `fetch` and immediately applies the changes on the local branches with `rebase` or `merge` depending on the given arguments.
 
 https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches
 
-`git fetch origin`
+### Log
 
-Fetches changes from origin, moves e.g. origin/master
+`git log`
+
+to see a log of the commits and branches. Useful arguments:
+
+`--graph`, `--all`, `--oneline`.
+
+To do less retyping, you can create aliases in `~/.gitconfig` such as
+
+```[alias]
+lg = log --graph --abbrev-commit --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'
+```
+
+and just type `git lg` instead.
 
 ### Push
 
@@ -26,6 +40,8 @@ Pushes `<branch>` to `<remote>`. For example `git push origin my_branch`
 `git push <remote> <branch>:<remotebranch>`
 
 Pushes `<branch>` but it is called `<remotebranch>` in `<remote>`
+
+
 
 
 ### Merge
@@ -40,7 +56,7 @@ Replays changes made on `<branch>` since it diverged from current branch on top 
 
 Quick way to return to a clean working directory without discarding nor committing changes to tracked files. The stash works like a stack where you can push and pop entries: You can push all changes in the working directory with
 
-`git stash` or more explicitly `git push`
+`git stash` or more explicitly `git stash push`
 
 or push only selected files with
 
@@ -59,6 +75,15 @@ You can see all entries on the stash with
 
 ## Scenarios
 
+#### Aliases
+
+If you regularly need a command with multiple arguments, you can define an alias for it in `~/.gitconfig` in your home directory with a section of the form
+```[alias]
+my_new_alias = gitcommand --arg1 --arg2'
+```
+
+Now, `git my_new_alias` is equivalent to `git gitcommand --arg1 --arg2`. See under `log` for a specific example.
+
 #### Commited to Wrong Branch
 
 Let's assume, you forgot to create a new branch first and have accidentally committed onto `main`. If you have not pushed already, you can fix it by
@@ -71,9 +96,13 @@ Let's assume, you forgot to create a new branch first and have accidentally comm
 
 #### Get/Set Upstream Branch
 
-If you want to pull/push onto/from a local branch `my_branch` and get a fatal error, that no upstream branch is set you can do so by
+If you want to pull/push onto/from a local branch `my_branch` and get a fatal error, that no upstream branch is set you can do so explicitly by
 
-`git branch --set-upstream-to=origin/<branch> my_branch`.
+`git branch --set-upstream-to=origin/<branch> my_branch`
+
+or do it in one go with pushing by
+
+`git push --set-upstream <remote> <branch>`.
 
 You can view the set upstream branches with
 

@@ -6,6 +6,6 @@ Team: Tabea Gehnen (tabge) & Gregor Teupke (GregorTpk)
 ## Usage
 
 * Each day's problem has a corresponding folder 01/, 02/, ...
-* Each day's folder contains subfolders a/, b/ for both subproblems
-* A subproblem is solved by `solve.py` with a file path as an optional command-line argument, default is `input.txt`.
+* Most day's folders contain subfolders a/, b/ for the subproblems
+* `solve.py` solves one or both subproblems. It takes a file path as an optional command-line argument, default is `input.txt`.
 * `input.txt` can be saved locally for convenience, where `input*.txt` is ignored by git.
