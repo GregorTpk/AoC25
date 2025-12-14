@@ -17,29 +17,22 @@ def solve(filename):
                               [int(present_count) for present_count in raw_tree[1].strip().split(" ")]])
 
     for i, tree in enumerate(trees):
-        #a = int(tree[0].split("x")[0]) // 3
-        #b = int(tree[0].split("x")[1]) // 3
+
         a, b = tree[0]
-        print (a,b)
         area = a*b
 
         presents = tree[1]
 
-       # presents = np.to_numeric(presents)
-
         sum_presents = sum(presents)
-        print(sum_presents)
-        if sum_presents < area/9:
+        if sum_presents <= area/9:
             counter += 1
-    print(counter)
+    return counter
     
-    print(trees)
-
 if __name__ == "__main__":
     if len(sys.argv) >= 2:
         filepath = sys.argv[1]
     else:
-        filepath = "input.txt"
+        filepath = "input2.txt"
 
     if os.path.isfile(filepath):
         results = solve(filepath)
