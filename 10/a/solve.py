@@ -2,6 +2,7 @@ import os, sys
 import numpy as np
 import sympy
 import galois
+import scipy.optimize
 
 import galois
 import numpy as np
@@ -30,7 +31,7 @@ def solve(filename):
             machine = line.strip().split(" ")
             inp.append(machine)
 
-    for i, machine in enumerate(inp): 
+    for i, machine in enumerate(inp):
         indicator.append(machine[0])
         joltage.append(machine[-1])
         button.append(machine[1:-1])
@@ -79,21 +80,114 @@ def solve(filename):
         b = np.array(indicator_num2[i], dtype=int).reshape(-1)
         c = np.array(v_joltage[i], dtype = int).reshape(-1)
 
-        results_a += solve_over_F2(A,b)
-       # print(solve_over_r(A,c))
+       # results_a += solve_over_F2(A,b)
+        results_b += solve_over_r(A,c)
     # = 0
     return results_a, results_b
 
 def solve_over_r(A,b):
-    x, residuals, rank, s = np.linalg.lstsq(A, b, rcond=None)
-
+ #   x, residuals, rank, s = np.linalg.lstsq(A, b, rcond=None)
+    n_rows = len(A)
+    n_cols = len(A[0])
+    
     A_aug = np.column_stack((A,b))
 
     #rref = A_aug.rref
-    rref,_ = sympy.Matrix(A_aug).rref()
-    print(rref)
-    return x
+    rref,pivot_cols = sympy.Matrix(A_aug).rref()
 
+    rref = rref.tolist()
+   # print(rref)
+
+    pivot_cols = list(pivot_cols) # -> Indices abhängigen Variablen (xi bei Ax=b)
+    #pivot_rows = 
+
+    # Indices der Nicht-Pivot-Spalten
+    nonpivot_index = list(range(n_cols)) # -> Indices freie Variablen (xi bei Ax=b)
+
+    for i in pivot_cols: 
+        nonpivot_index.remove(i)
+    
+    # Homogenese Gleichungssystem lösen (A|0) -> abhängigen Variablen bestimen in dem Pivot indices rückwärtz durchlaufen
+
+    # Partikuläre Lösung bestimmen: unabhängige Variablen (aka, indices der nicht pivot spalten = 0)
+    # Nullvektor erzeugen und dann ersetzen
+   # print(pivot_cols)
+    x_part = [0] * (n_cols)
+    for i, pivot in enumerate(pivot_cols):
+    #    print(rref[i])
+        x_part[pivot] = rref[i][-1]
+
+    # Calculate the direction vectors that span the solutions space   
+    direction_vec = []
+
+    for i in nonpivot_index:
+        vector = [0]*(n_cols)
+        vector[i] = 1 # Set each Nonpivot element to 1 and then 
+        for j, element in enumerate(pivot_cols):
+            vector[element] = -rref[j][i]
+        direction_vec.append(vector)
+    
+    max_n_button_pushes = sum(b)
+    min_n_button_pushes = max(b)
+
+    # integer linear programming
+    c = list()
+    A = list()
+    b = list()
+    bnd = list()
+    integ = [1] * len(direction_vec)
+
+    n_buttons_to_push = sum(x_part)
+
+    log_one_sol = 0
+
+    if len(direction_vec) > 0:
+        for i, vec in enumerate(direction_vec):
+            c.append(sum(vec))
+            bnd.append((0, max_n_button_pushes))
+          #  integ.append([1])
+
+        A = (-1) * np.transpose(direction_vec)
+        b = x_part
+
+        opt = scipy.optimize.linprog(c = c,
+                    A_ub = A,
+                    b_ub = b,
+                    bounds = bnd,
+                    integrality = integ )
+        
+      #  res = np.round(opt.x).astype(int)
+        n_buttons_to_push += opt.fun 
+        if not (opt.fun).is_integer():
+            print(opt) 
+        # Calculate the number of buttons to push
+        #for i, result in enumerate(res): 
+         #   n_buttons_to_push += result*sum(direction_vec[i])
+        #print(opt)
+
+        #if opt.status != 0: 
+            
+    else: 
+        log_one_sol += 1        
+        #print("Part Solution is only solution")
+    
+
+    #n_button
+
+
+    
+   # nonpivot_index = list_col.remove(list(pivot_index))
+#    print("Urpsrungs Matrix: ", A)
+ #   print("rref ", rref)
+  #  print("pivot", pivot_cols)
+  #  print("nonpivot index", nonpivot_index)
+  #  print("Partikuläre Lösung", x_part)
+  #  print("Solutions space: basis:", direction_vec)
+  #  print("Results linear progr. ", opt)
+  #  print("")
+    return n_buttons_to_push
+
+# Freiheitsgrade = n_Spalten - n_pivot -> Dimension des Lösungsraum
 
 def solve_over_F2(A, b):
     # --- 1) Define the field and matrix ---
@@ -146,11 +240,11 @@ if __name__ == "__main__":
     if len(sys.argv) >= 2:
         filepath = sys.argv[1]
     else:
-        filepath = "example.txt"
+        filepath = "input.txt"
 
     if os.path.isfile(filepath):
-        results_a = solve(filepath)
+        results_a, results_b = solve(filepath)
         print("Result Part a: ", results_a)
-        print("Result Part b: ", )
+        print("Result Part b: ", results_b)
     else:
         print("There is no such file")
