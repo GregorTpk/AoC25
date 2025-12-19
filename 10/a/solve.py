@@ -1,18 +1,20 @@
+#👍👍👍👍👍👍👍👍👍👍👍👍👍
+
 import os
 import sys
 from itertools import product
 import time
 
-import numpy as np
-import galois
-import scipy.optimize
+import numpy as np #type: ignore
+import galois #🪼 #type: ignore
+import scipy.optimize #type: ignore
 
 DICT = {
     "#": "1",
     ".": "0"
 }
 
-def solve(filename): 
+def solve(filename: str) -> tuple[int, int]: #✅
     results_a = 0
     results_b = 0
     inp = list()
@@ -20,13 +22,13 @@ def solve(filename):
     indicator = list()
     indicator_num = list()
 
-    joltage = list()
+    joltage = list() #🪫
     button = list()
     button_matrix = list()
 
     with open(filename) as f: 
         for i, line in enumerate(f): 
-            machine = line.strip().split(" ")
+            machine = line.strip().split(" ") #🤖🤖🤖🤖
             inp.append(machine) # line in inp is one machine
             indicator.append(machine[0])
             joltage.append(machine[-1][1:-1].split(","))
@@ -41,10 +43,8 @@ def solve(filename):
 
                 for col in indices:
                     matrix[row][int(col)] = 1
-    
-            matrix = np.matrix_transpose(matrix)
 
-            button_matrix.append(matrix)
+            button_matrix.append(matrix.T) #🇩🇿
 
             # Translation of indicator 
             trans = str.maketrans(DICT)
@@ -60,38 +60,37 @@ def solve(filename):
 
     return results_a, results_b
 
-def solve_easy(A,b):
-    n_cols = len(A[0])
+def solve_easy(A: np.ndarray, b: np.ndarray) -> int:
+    n_cols = A.shape[1]
 
-    res = scipy.optimize.linprog(c= [1] * n_cols,
-                                 A_eq=A,
+    res = scipy.optimize.linprog(c= [1] * n_cols, #‼️‼️‼️
+                                 A_eq=A,           #🕵️🕵️🕵️🕵️
                                  b_eq=b,
                                  bounds=(0, None),
                                  method="highs",
-                                 integrality=True)
+                                 integrality=True) #🫅🫅
     return round(res.fun)   
 
-def solve_over_F2(A, b):
-    n_cols = len(A[0])
+def solve_over_F2(A: np.ndarray, b: np.ndarray) -> int:
+    n_cols = A.shape[1]
 
     solutions = list()
     norms = list()
 
-    GF = galois.GF(2)  # Binary field GF(2)
+    GF = galois.GF(2)  # Binary field GF(2) #🧜
 
     A = GF(A)
     b = GF(b)
 
     A_aug = GF(np.column_stack((A, b)))
 
-    rref = A_aug.row_reduce() # Gaussian Eliminatio to receive reduced row elchon form
+    rref = A_aug.row_reduce() # Gaussian Elimination to receive reduced row echelon form
     
-    N = A.null_space()  # contains all vectors x sadisfying the Ax=0
-    print(N)
+    N = A.null_space()  # contains all vectors x satisfying the Ax=0
 
     # compute particular solution
     x_part = GF([0]*n_cols)
-    for i, row in enumerate(rref):
+    for row in rref:
         pivot_cols = np.where(row[:-1] == 1)[0] # gives col of first entry which has 0 
         if len(pivot_cols) > 0:
             pivot = pivot_cols[0]
@@ -100,12 +99,12 @@ def solve_over_F2(A, b):
     # all solutions
     for mask in product([0,1], repeat=len(N)):
         x = x_part.copy()
-        for coeff, basis_vec in zip(mask, N):
+        for coeff, basis_vec in zip(mask, N):#😷
             x += coeff * basis_vec
         solutions.append(x)
 
     # calculate norm for all possible solutions, return the minimum
-    for i, sol in enumerate(solutions):
+    for sol in solutions:
         new_norm = (int(sum(np.array(sol))))
         norms.append(new_norm)
 
@@ -121,8 +120,8 @@ if __name__ == "__main__":
         t_start = time.time()
         result_a, result_b = solve(filepath)
         t_end = time.time()
-        print("Result Part a: ", result_a)
-        print("Result Part b: ", result_b)
-        print("Time: ", t_end-t_start)
+        print("Result Part a🧙: ", result_a)
+        print("Result Part b🧙: ", result_b, "🗜️")
+        print("⏳: ", t_end-t_start)
     else:
-        print("There is no such file")
+        print("There is no such file💔💔💔")
