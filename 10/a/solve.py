@@ -3,10 +3,14 @@ import numpy as np
 import sympy
 import galois
 import scipy.optimize
+import pulp
 
 import galois
 import numpy as np
 from itertools import product
+from fractions import Fraction
+from math import gcd
+
 
 
 DICT = {
@@ -47,13 +51,11 @@ def solve(filename):
 
             for k, index in enumerate(indices):
                 matrix[j][int(index)] = 1
-     #   print("Matrix")
-      #  print(matrix)
+ 
         matrix = np.matrix_transpose(matrix)
-       # print("Transponierte Matrix") # Transpose Matrix
-        #print(matrix)
+
         button_matrix.append(matrix)
-    #print(button_matrix)
+
     # From indicator to list of 1 and 0
     for i, indicators in enumerate(indicator): 
         trans = str.maketrans(DICT)
@@ -68,9 +70,7 @@ def solve(filename):
     v_joltage = list()
     for i, connection in enumerate(joltage): 
         v_joltage.append(connection[1:-1].split(","))
-        #v_connections
-    #print(v_connections)
-    #print(joltage)
+ 
     for i, matrix in enumerate(button_matrix): 
         _, pivots = sympy.Matrix(matrix).rref() # Pivot elemente bestimmen
         button_matrix_independent.append(matrix[:, pivots]) # Columns der Pivot elemente nehmen
@@ -81,9 +81,36 @@ def solve(filename):
         c = np.array(v_joltage[i], dtype = int).reshape(-1)
 
        # results_a += solve_over_F2(A,b)
-        results_b += solve_over_r(A,c)
-    # = 0
+        print("Matrix Numer: ", i)
+        results_b += solve_easy(A,c)
+        print("---")
+        
+
     return results_a, results_b
+
+def lcm(a,b): # calculat least common multiple of two numbers
+    return abs(a*b)//gcd(a,b)
+
+def minimal_scalar(vector): 
+    denominators = [Fraction(x).denominator for x in vector]
+    scalar = denominators[0]
+    for denom in denominators[1:]:
+        scalar = lcm(scalar, denom)
+    return [scalar*x for x in vector]
+
+def solve_easy(A,b): 
+    n_rows = len(A)
+    n_cols = len(A[0])
+
+    res = scipy.optimize.linprog(
+    [1] * n_cols,
+    A_eq=A,
+    b_eq=b,
+    bounds=(0, None),
+    method="highs",
+    integrality=True,
+    )
+    return round(res.fun)   
 
 def solve_over_r(A,b):
  #   x, residuals, rank, s = np.linalg.lstsq(A, b, rcond=None)
@@ -92,14 +119,87 @@ def solve_over_r(A,b):
     
     A_aug = np.column_stack((A,b))
 
-    #rref = A_aug.rref
     rref,pivot_cols = sympy.Matrix(A_aug).rref()
 
     rref = rref.tolist()
-   # print(rref)
 
     pivot_cols = list(pivot_cols) # -> Indices abhängigen Variablen (xi bei Ax=b)
-    #pivot_rows = 
+
+    # Indices der Nicht-Pivot-Spalten
+    nonpivot_index = list(range(n_cols)) # -> Indices freie Variablen (xi bei Ax=b)
+
+    for i in pivot_cols: 
+        nonpivot_index.remove(i)
+
+    # Homogenese Gleichungssystem lösen (A|0) -> abhängigen Variablen bestimen in dem Pivot indices rückwärtz durchlaufen
+
+    # Partikuläre Lösung bestimmen: unabhängige Variablen (aka, indices der nicht pivot spalten = 0)
+    # Nullvektor erzeugen und dann ersetzen
+    x_part = [0] * (n_cols)
+    for i, pivot in enumerate(pivot_cols):
+        x_part[pivot] = rref[i][-1]
+    print(x_part)
+    #x_part = minimal_scalar(x_part)
+    # Calculate the direction vectors that span the solutions space   
+    direction_vec = []
+
+    for i in nonpivot_index:
+        vector = [0]*(n_cols)
+        vector[i] = 1 # Set each Nonpivot element to 1 and then 
+        for j, element in enumerate(pivot_cols):
+            vector[element] = -rref[j][i]
+        direction_vec.append(vector)
+    
+    max_n_button_pushes = sum(b)
+    min_n_button_pushes = max(b)
+    
+    c = list()
+    A = list()
+    b = list()
+    bnd = list()
+    
+    n_buttons_to_push = sum(x_part)
+    
+    if len(direction_vec) > 0:
+        direction_vec_scaled = list()
+        for i, vec in enumerate(direction_vec):
+            new_vec = minimal_scalar(vec)
+            direction_vec_scaled.append(new_vec)
+            c.append(sum(new_vec))
+
+        bnd = scipy.optimize.Bounds(lb = np.zeros(len(direction_vec_scaled)), ub = np.full(len(direction_vec_scaled), np.inf))
+        integ = [2] * len(direction_vec_scaled)
+        
+        A = (-1) * np.transpose(direction_vec_scaled)
+        bu = x_part
+        bl = np.full(len(x_part), -np.inf)
+
+        constraints = scipy.optimize.LinearConstraint(A, lb = bl, ub=bu)
+
+        opt = scipy.optimize.milp(c = c,
+                    constraints=constraints,
+                    bounds = bnd,
+                    integrality = integ )
+        
+        res = np.round(opt.fun).astype(int)
+        print("opt.fun", opt.fun, "res", res)
+        n_buttons_to_push += res #opt.fun 
+        if not (opt.fun).is_integer() or opt.status != 0:
+            print(opt)
+            
+    return n_buttons_to_push
+
+def solve_pulp(A,b):  #   x, residuals, rank, s = np.linalg.lstsq(A, b, rcond=None)
+    n_rows = len(A)
+    n_cols = len(A[0])
+    
+    A_aug = np.column_stack((A,b))
+
+    rref,pivot_cols = sympy.Matrix(A_aug).rref()
+
+    rref = rref.tolist()
+
+    pivot_cols = list(pivot_cols) # -> Indices abhängigen Variablen (xi bei Ax=b)
 
     # Indices der Nicht-Pivot-Spalten
     nonpivot_index = list(range(n_cols)) # -> Indices freie Variablen (xi bei Ax=b)
@@ -107,14 +207,8 @@ def solve_over_r(A,b):
     for i in pivot_cols: 
         nonpivot_index.remove(i)
     
-    # Homogenese Gleichungssystem lösen (A|0) -> abhängigen Variablen bestimen in dem Pivot indices rückwärtz durchlaufen
-
-    # Partikuläre Lösung bestimmen: unabhängige Variablen (aka, indices der nicht pivot spalten = 0)
-    # Nullvektor erzeugen und dann ersetzen
-   # print(pivot_cols)
     x_part = [0] * (n_cols)
     for i, pivot in enumerate(pivot_cols):
-    #    print(rref[i])
         x_part[pivot] = rref[i][-1]
 
     # Calculate the direction vectors that span the solutions space   
@@ -130,49 +224,36 @@ def solve_over_r(A,b):
     max_n_button_pushes = sum(b)
     min_n_button_pushes = max(b)
 
-    # integer linear programming
-    c = list()
-    A = list()
-    b = list()
-    bnd = list()
-    integ = [1] * len(direction_vec)
+    n_buttons_to_push = 0 #sum(x_part)
+    if len(direction_vec) > 0: 
 
-    n_buttons_to_push = sum(x_part)
+        model = pulp.LpProblem(name = "AoC", sense = pulp.LpMinimize)
 
-    log_one_sol = 0
+        x = [pulp.LpVariable(f"x_{i}", cat='Continuous') for i in range(len(direction_vec))]
+        a = pulp.LpVariable("a", lowBound = 1, upBound = 1, cat = "Integer")
+        y = [pulp.LpVariable(f"y_{i}", lowBound = 0, upBound = max_n_button_pushes, cat="Integer") for i in range(len(x_part))]
 
-    if len(direction_vec) > 0:
-        for i, vec in enumerate(direction_vec):
-            c.append(sum(vec))
-            bnd.append((0, max_n_button_pushes))
-          #  integ.append([1])
+        model += a * sum(x_part) + pulp.lpSum([sum(direction_vec[i]) * x[i] for i in range(len(direction_vec))])
 
-        A = (-1) * np.transpose(direction_vec)
-        b = x_part
-
-        opt = scipy.optimize.linprog(c = c,
-                    A_ub = A,
-                    b_ub = b,
-                    bounds = bnd,
-                    integrality = integ )
+        # add contraint functions
+        for i in range(len(x_part)):
+            eq = [a*x_part[i]]
+            for j, element in enumerate(direction_vec):
+                eq.append( x[j] * element[i])
+            model += pulp.lpSum(eq) == y[i]
         
-      #  res = np.round(opt.x).astype(int)
-        n_buttons_to_push += opt.fun 
-        if not (opt.fun).is_integer():
-            print(opt) 
-        # Calculate the number of buttons to push
-        #for i, result in enumerate(res): 
-         #   n_buttons_to_push += result*sum(direction_vec[i])
-        #print(opt)
+        model.solve()
+        
+        print(model.variables())
 
-        #if opt.status != 0: 
-            
-    else: 
-        log_one_sol += 1        
-        #print("Part Solution is only solution")
-    
+        n_buttons_to_push += pulp.value(model.objective)
+        #print(pulp.value(model.objective))
+    #    for i, var in enumerate(model.variables()):
+     #       if var.value() is not None:
+      #          print(var.value())
+       #         n_buttons_to_push += sum(direction_vec[i])*var.value()
 
-    #n_button
+    return n_buttons_to_push
 
 
     
@@ -185,6 +266,7 @@ def solve_over_r(A,b):
   #  print("Solutions space: basis:", direction_vec)
   #  print("Results linear progr. ", opt)
   #  print("")
+  
     return n_buttons_to_push
 
 # Freiheitsgrade = n_Spalten - n_pivot -> Dimension des Lösungsraum
@@ -240,7 +322,7 @@ if __name__ == "__main__":
     if len(sys.argv) >= 2:
         filepath = sys.argv[1]
     else:
-        filepath = "input.txt"
+        filepath = "input2.txt"
 
     if os.path.isfile(filepath):
         results_a, results_b = solve(filepath)
