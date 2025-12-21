@@ -1,35 +1,40 @@
-import os, sys
+import os, sys, argparse
 
-def binary_search(intervals, id):
-    #Returns interval with largest lowerbound <= id,
-    #None if no matching interval was found
+type Interval = list[int, int]
+type IntervalList = list[Interval]
+
+def binary_search(sorted_intervals: IntervalList, id: int) -> Interval:
+    """Takes sorted list of intervals and an id.
+    Returns interval with the largest lowerbound <= id, if it exists.
+    Otherwise return None."""
     a = 0
-    b = len(intervals) - 1
+    b = len(sorted_intervals) - 1
 
-    if intervals[0][0] > id:
+    if sorted_intervals[0][0] > id:
         return None
 
     while a < b:
+        #Bisect search interval
         c = (a + b + 1)//2
-        if intervals[c][0] <= id:
+        if sorted_intervals[c][0] <= id:
             a = c
         else:
             b = c - 1
     if a == b:
-        return intervals[a]
+        return sorted_intervals[a]
     return None
 
-def load_intervals(filename):
-    #Load file, processes intrevals into list of sorted, disjoint intervals
+def load_intervals(filename: str) -> tuple[IntervalList, list[int]]:
+    """Loads file, processes intervals into list of sorted, disjoint intervals."""
 
     unsorted_intervals = None
     available_ids = None
-    with open (filename, "r") as f:
+    with open(filename, "r") as f:
         unsorted_intervals, available_ids = f.read().split("\n\n")
         unsorted_intervals = [[int(interv_bound) for interv_bound in interv.split("-")] for interv in unsorted_intervals.split("\n")]
         available_ids = [int(avail_id) for avail_id in available_ids.strip().split("\n")]
 
-    #Sort the fresh intervals after their lower boundary
+    #Sort the loaded intervals after their lower boundary
     key_func = lambda interv: interv[0]
     sorted_intervals = sorted(unsorted_intervals, key=key_func)
 
@@ -40,15 +45,17 @@ def load_intervals(filename):
         if current_merge == None:
             current_merge = list(interv)
         elif interv[0] <= current_merge[1] + 1:
+            #Merge interv with current interval
             current_merge[1] = max(interv[1], current_merge[1])
         else:
+            #Begin next, disjoint interval
             disjoint_intervals.append(current_merge)
             current_merge = interv
     disjoint_intervals.append(current_merge)
 
     return disjoint_intervals, available_ids
 
-def count_fresh_available_ids(disjoint_intervals, available_ids):
+def count_fresh_available_ids(disjoint_intervals: IntervalList, available_ids: list[int]) -> int:
     #Subproblem a: Find all fresh available ids
     fresh_available_count = 0
     for avail_id in available_ids:
@@ -58,12 +65,13 @@ def count_fresh_available_ids(disjoint_intervals, available_ids):
 
     return fresh_available_count
 
-def count_all_fresh_ids(disjoint_intervals):
+def count_all_fresh_ids(disjoint_intervals: IntervalList) -> int:
     #Subproblem b: Count all ids considered fresh
+    #Sum of all interval lengths
     return sum((interv[1] - interv[0] + 1 for interv in disjoint_intervals))
 
-def solve(filename):
-    #Solves both a and b: Returns (fresh_available_count, total_fresh_count)
+def solve(filename: str) -> tuple[int, int]:
+    """Solves both a and b: Returns (fresh_available_count, total_fresh_count)"""
     disjoint_intervals, available_ids = load_intervals(filename)
 
     fresh_available_count = count_fresh_available_ids(disjoint_intervals, available_ids)
@@ -73,10 +81,11 @@ def solve(filename):
     return (fresh_available_count, total_fresh_count)
 
 if __name__ == "__main__":
-    if len(sys.argv) >= 2:
-        filepath = sys.argv[1]
-    else:
-        filepath = "input.txt"
+    parser = argparse.ArgumentParser()
+    parser.add_argument('filepath', nargs="?", default="input.txt", help="Default 'input.txt'")
+    args = parser.parse_args()
+
+    filepath = args.filepath
 
     if os.path.isfile(filepath):
         fresh_available_count, total_fresh_count = solve(filepath)
