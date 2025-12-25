@@ -55,7 +55,7 @@ class Node:
                 self.num_paths[i | self.waypoint] += c.num_paths[i]
 
 def load_graph(filepath: str) -> list[Node]:
-    """Loads file and builds graph as a list of Node-objects."""S
+    """Loads file and builds graph as a list of Node-objects."""
 
     #Build list of all nodes
     nodes = []
