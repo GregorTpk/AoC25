@@ -76,13 +76,19 @@ def solve(filepath: str) -> tuple[int, int]:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('filepath', nargs="?", default="input.txt", help="Default 'input.txt'")
+    parser.add_argument('-q', '--quiet', action='store_true', default=False, help="Only output plain results without text.")
     args = parser.parse_args()
 
     filepath = args.filepath
+    QUIET = args.quiet
 
     if os.path.isfile(filepath):
         rowwise_total_sum, columnwise_total_sum = solve(filepath)
-        print("a: total sum %s when reading numbers rowwise."%rowwise_total_sum)
-        print("b: total sum %s when reading numbers columnwise."%columnwise_total_sum)
+        if not QUIET:
+            print("a: total sum %s when reading numbers rowwise."%rowwise_total_sum)
+            print("b: total sum %s when reading numbers columnwise."%columnwise_total_sum)
+        else:
+            print(rowwise_total_sum)
+            print(columnwise_total_sum)
     else:
         print("There is no such file")
