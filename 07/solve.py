@@ -39,13 +39,19 @@ def solve(filepath: str) -> tuple[int, int]:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('filepath', nargs="?", default="input.txt", help="Default 'input.txt'")
+    parser.add_argument('-q', '--quiet', action='store_true', default=False, help="Only output plain results without text.")
     args = parser.parse_args()
 
     filepath = args.filepath
+    QUIET = args.quiet
 
     if os.path.isfile(filepath):
         split_count, timeline_count = solve(filepath)
-        print("a: %s splits"%split_count)
-        print("b: %s different timelines"%timeline_count)
+        if not QUIET:
+            print("a: %s splits"%split_count)
+            print("b: %s different timelines"%timeline_count)
+        else:
+            print(split_count)
+            print(timeline_count)
     else:
         print("There is no such file")
