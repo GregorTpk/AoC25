@@ -83,13 +83,19 @@ def solve(filename: str) -> tuple[int, int]:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('filepath', nargs="?", default="input.txt", help="Default 'input.txt'")
+    parser.add_argument('-q', '--quiet', action='store_true', default=False, help="Only output plain results without text.")
     args = parser.parse_args()
 
     filepath = args.filepath
+    QUIET = args.quiet
 
     if os.path.isfile(filepath):
         fresh_available_count, total_fresh_count = solve(filepath)
-        print("a: %s fresh, available ids"%fresh_available_count)
-        print("b: %s ids considered fresh in total"%total_fresh_count)
+        if not QUIET:
+            print("a: %s fresh, available ids"%fresh_available_count)
+            print("b: %s ids considered fresh in total"%total_fresh_count)
+        else:
+            print(fresh_available_count)
+            print(total_fresh_count)
     else:
         print("There is no such file")
