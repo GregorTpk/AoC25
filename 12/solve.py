@@ -1,6 +1,4 @@
-import os, sys 
-import numpy as np
-import pandas as pd
+import os, argparse
 
 def solve(filename): 
     trees = list()
@@ -16,7 +14,7 @@ def solve(filename):
                 trees.append([[int(dim) for dim in raw_tree[0].split("x")], 
                               [int(present_count) for present_count in raw_tree[1].strip().split(" ")]])
 
-    for i, tree in enumerate(trees):
+    for tree in trees:
 
         a, b = tree[0]
         area = a*b
@@ -27,15 +25,19 @@ def solve(filename):
         if sum_presents <= area/9:
             counter += 1
     return counter
-    
+
 if __name__ == "__main__":
-    if len(sys.argv) >= 2:
-        filepath = sys.argv[1]
-    else:
-        filepath = "input2.txt"
+    parser = argparse.ArgumentParser()
+    parser.add_argument('filepath', nargs="?", default="input.txt", help="Default 'input.txt'")
+    parser.add_argument('-q', '--quiet', action='store_true', default=False, help="Only output plain results without text.")
+    args = parser.parse_args()
+
+    filepath = args.filepath
+    QUIET = args.quiet
 
     if os.path.isfile(filepath):
-        results = solve(filepath)
-        print(results)
+        result = solve(filepath)
+        msg = ("%s solvable regions (probably)"%result if not QUIET else result)
+        print(msg)
     else:
         print("There is no such file")

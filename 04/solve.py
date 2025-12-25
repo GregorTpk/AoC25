@@ -1,4 +1,4 @@
-import os, sys
+import os, argparse
 
 PRINT_GRID = False
 
@@ -42,13 +42,14 @@ def remove_paper(line, line_neighbor_counts):
             newline.append(tile)
     return newline
 
-def solve(filename):
+def solve(filename: str) -> tuple[int, int]:
     grid = None
     line_length = None
     with open(filename, "r") as f:
         grid = [list(line.strip()) for line in f.readlines()]
         line_length = len(grid[0])
 
+    first_iteration_removed_count = None
     total_removed_count = 0
     has_removed_paper = True
 
@@ -82,25 +83,40 @@ def solve(filename):
         iteration_removed_count += count_valid_tiles(prev_line, prev_line_neigbor_counts)
         new_grid.append(remove_paper(prev_line, prev_line_neigbor_counts))
 
+        #Update grid
         grid = new_grid
+        if first_iteration_removed_count == None:
+            first_iteration_removed_count = iteration_removed_count
         total_removed_count += iteration_removed_count
 
+        #End condition
         if iteration_removed_count == 0:
             has_removed_paper = False
 
         if PRINT_GRID:
             print()
 
-    return total_removed_count
-
+    return first_iteration_removed_count, total_removed_count
 
 if __name__ == "__main__":
-    if len(sys.argv) >= 2:
-        filepath = sys.argv[1]
-    else:
-        filepath = "input.txt"
+    parser = argparse.ArgumentParser()
+    parser.add_argument('filepath', nargs="?", default="input.txt", help="Default 'input.txt'")
+    parser.add_argument('-q', '--quiet', action='store_true', default=False, help="Only output plain results without text.")
+    parser.add_argument('-l', '--log', action='store_true', default=False, help="Show log. Tuned by --loglevel")
+    args = parser.parse_args()
+
+    filepath = args.filepath
+
+    QUIET = args.quiet
+    PRINT_GRID = not QUIET and args.log
 
     if os.path.isfile(filepath):
-        print(solve(filepath))
+        first_iteration_removed_count, total_removed_count = solve(filepath)
+        if not QUIET:
+            print("Removed %s paper rolls after first iteration."%first_iteration_removed_count)
+            print("Removed %s paper rolls in total."%total_removed_count)
+        else:
+            print(first_iteration_removed_count)
+            print(total_removed_count)
     else:
         print("There is no such file")
