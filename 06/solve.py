@@ -27,7 +27,7 @@ def load_columnwise(filepath: str) -> tuple[OperandGroups, Operators]:
     longest_line = max((len(line) for line in lines))
     for i, line in enumerate(lines):
         lines[i] = line.strip("\n")
-        lines[i] += " "*(longest_line - len(line))
+        lines[i] += " "*(longest_line - len(lines[i]))
 
     #Extract all operators and operand-groups from the lines
     operand_lines = lines[:-1]
