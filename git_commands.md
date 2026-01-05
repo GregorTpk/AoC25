@@ -33,14 +33,19 @@ and just type `git lg` instead.
 
 ### Push
 
+Push a branch to a specified remote repository via
+
 `git push <remote> <branch>`
 
-Pushes `<branch>` to `<remote>`. For example `git push origin my_branch`
+for example `git push origin my_branch`. Give the remote branch a different name with
 
-`git push <remote> <branch>:<remotebranch>`
+`git push <remote> <branch>:<remotebranch>`,
 
-Pushes `<branch>` but it is called `<remotebranch>` in `<remote>`
+which pushes `<branch>` but it is called `<remotebranch>` in `<remote>`.
 
+If push throws a fatal error that there is no upstream branch, you can set it and push with
+
+`git push --set-upstream <remote> <branch>`
 
 
 
