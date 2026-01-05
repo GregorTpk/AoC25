@@ -1,23 +1,24 @@
 import os, argparse
 
+#Number of considered batteries in both subproblems respectively
 BATTERY_COUNTS = (2, 12)
 
 def solve_subproblem(banks, battery_count):
+    """Maximize joltage by choosing battery_count many batteries per bank."""
+
     joltage = list()
     for num in banks:
         new_num = list()
         index_num = list()
 
         digits = [int(d) for d in str(num)]
-        largest_digt_idx = -1
+        largest_digit_idx = -1
 
-        # to solve
-        # 1. find highest digit, so dass noch min. 11 ziffern übrigbleiben , append to list
-        # 2. finde zweithöchste ziffer nach der höchsten ziffer, so dass noch min. 10 ziffern übrigbleiben
-        # 3. repeat until 12 digits are found
+        #Iteratively choose batteries from highest to lowest significance
+        #Always choose the battery with max joltage such that enough batteries remain
         for i in range(battery_count):
-            largest_digit = max(digits[largest_digt_idx + 1 : len(digits) - battery_count + i + 1])
-            largest_digt_idx = digits.index(largest_digit, largest_digt_idx+1)
+            largest_digit = max(digits[largest_digit_idx + 1 : len(digits) - battery_count + i + 1])
+            largest_digit_idx = digits.index(largest_digit, largest_digit_idx+1)
             new_num.append(largest_digit)
 
         whole_num = "".join(str(d) for d in new_num)

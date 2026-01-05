@@ -15,10 +15,13 @@ def get_all_divisors(n):
 
 def solve_subproblem(intervals, get_divisors):
     invalid_id = list()
+    #Iterate over all ids in the given intervals
     for start, end in intervals:
         for num in range(start, end + 1):
             length_of_num = len(str(num))
+            #Iterate relevant divisors of current id
             for divisor in get_divisors(length_of_num):
+                #Check whether current id is the repetition of its prefix
                 substring = str(num)[:divisor]
                 if substring * (length_of_num // divisor) == str(num):
                     invalid_id.append(num)
@@ -31,7 +34,9 @@ def solve(filename):
     with open(filename) as f:
         intervals = [[int(border) for border in interv.split("-")] for interv in f.read().strip().split(",")]
 
+    #Subproblem a: Only consider the divisor n//2 of even n
     twofold_repeating_inv_ids = solve_subproblem(intervals, get_divisors=lambda n: (n//2,) if n%2 == 0 else ())
+    #Subproblem b: Consider all divisors
     manifold_repeating_inv_ids = solve_subproblem(intervals, get_divisors=get_all_divisors)
 
     return twofold_repeating_inv_ids, manifold_repeating_inv_ids

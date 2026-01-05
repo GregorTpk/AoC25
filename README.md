@@ -6,6 +6,11 @@ Team: Tabea Gehnen (tabge) & Gregor Teupke (GregorTpk)
 ## Usage
 
 * Each day's problem has a corresponding folder 01/, 02/, ...
-* Most day's folders contain subfolders a/, b/ for the subproblems
-* `solve.py` solves one or both subproblems. It takes a file path as an optional command-line argument, default is `input.txt`.
+* `solve.py` solves both subproblems of a day. It takes a file path as an optional command-line argument, default is `input.txt`.
 * `input.txt` can be saved locally for convenience, where `input*.txt` is ignored by git.
+* With the command line argument `-q`, a solver script only outputs the result without any text.
+* Some solvers support more command line arguments. View them with `-h`. 
+
+## Dependencies
+
+* Day 10 requires `scipy` and `galois`.

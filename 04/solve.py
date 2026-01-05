@@ -53,10 +53,13 @@ def solve(filename: str) -> tuple[int, int]:
     total_removed_count = 0
     has_removed_paper = True
 
+    #Iteratively remove paper until nothing was removed
     while has_removed_paper:
+        #No removing in place but write a new grid instead
         new_grid = []
         iteration_removed_count = 0
 
+        #Iterate grid with 3 neighboring lines simultaneously (prev_line, line, next_line)
         prev_line = None
         prev_line_neigbor_counts = None
         line_neighbor_counts = [0] * line_length
@@ -64,6 +67,7 @@ def solve(filename: str) -> tuple[int, int]:
         for line in grid:
             for i, tile in enumerate(line):
                 if tile == PAPER:
+                    #Update neighbors of current tile in prev, current and next line
                     if prev_line_neigbor_counts != None:
                         update_neighbors(prev_line_neigbor_counts, i, only_neighbors=False)
 
@@ -71,6 +75,8 @@ def solve(filename: str) -> tuple[int, int]:
 
                     update_neighbors(next_line_neighbor_counts, i, only_neighbors=False)
 
+            #All neighbors of tiles in prev_line considered
+            #Extend new_grid by updated prev_line
             if prev_line_neigbor_counts != None:
                 iteration_removed_count += count_valid_tiles(prev_line, prev_line_neigbor_counts)
                 new_grid.append(remove_paper(prev_line, prev_line_neigbor_counts))
@@ -80,6 +86,7 @@ def solve(filename: str) -> tuple[int, int]:
             line_neighbor_counts = next_line_neighbor_counts
             next_line_neighbor_counts = [0] * line_length
 
+        #Update last line
         iteration_removed_count += count_valid_tiles(prev_line, prev_line_neigbor_counts)
         new_grid.append(remove_paper(prev_line, prev_line_neigbor_counts))
 

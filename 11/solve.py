@@ -69,7 +69,8 @@ def load_graph(filepath: str) -> list[Node]:
     nodes.append(Node(OUT_NAME, []))
 
     #Make connections between nodes
-    #Improve: binary search to find connection
+    #Improve O(n^2) by using binary search to find connection
+    #Though runtime is limited by DFS: O(nm)
     for node in nodes:
         real_connections = []
         for pot_connection in nodes:
