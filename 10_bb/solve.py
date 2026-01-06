@@ -1,4 +1,8 @@
-import os, sys
+import os, argparse
+
+"""
+Branch and Bound approach for day 10b.
+"""
 
 class Machine:
     def __init__(self, indicator_diagram, buttons, joltage_requirements):
@@ -6,6 +10,7 @@ class Machine:
         self.indicator_diagram = indicator_diagram
 
         self.buttons = buttons
+        self.largest_buttons = None
 
         self.joltage_presses = None
         self.joltage_requirements = joltage_requirements
@@ -28,42 +33,64 @@ class Machine:
         self.indicator_button_presses = min_solution
     def set_joltage(self):
         def set_joltage_rec(first_button_idx, seq, remaining_joltage):
-#            print("seq is %s"%seq)
-#            print("rem jolt is %s"%remaining_joltage)
-#            print("min_upperbound is %s"%self.__joltage_min_presses_count_upperbound)
-#            print("solution %s"%self.__joltage_solution)
+            remaining_presses = self.__joltage_min_presses_count_upperbound - len(seq) - 2
             for idx, button in enumerate(self.buttons[first_button_idx:], start=first_button_idx):
                 new_remaining_joltage = remaining_joltage[:]
-                invalid_button_press = False
-#                print("Apply button %s, %s"%(idx, button))
+                cut_branch = False
+
                 for incr_idx in button:
                     new_remaining_joltage[incr_idx] -= 1
 
                     #Overshot joltage, invalid button press
                     if new_remaining_joltage[incr_idx] < 0:
-                        invalid_button_press = True
+                        cut_branch = True
                         break
 
-                if invalid_button_press:
+                if cut_branch:
                     continue
 
                 new_seq = seq[:]
                 new_seq.append(idx)
 
                 #Correct joltage
-                if sum(new_remaining_joltage) == 0:
-#                    print("yes")
+                remaining_joltage_sum = 0 # sum(new_remaining_joltage)
+                for rem_jolt in new_remaining_joltage:
+                    if rem_jolt > remaining_presses:
+                        cut_branch = True
+                        break
+                    remaining_joltage_sum += rem_jolt
+
+                if cut_branch:
+                    print("reduction through single remaining joltage > remaining presses (depth %s)"%len(seq))
+                    continue
+
+                if remaining_joltage_sum == 0:
+                    print("yes")
                     #Assert: improvement in press count
                     self.__joltage_min_presses_count_upperbound = len(new_seq)
                     self.__joltage_solution = new_seq
                     return
 
+                #Optimistic estimation
+                #TODO: Improve heuristic
+                optimistic_joltage_reduction = self.largest_buttons[idx] * remaining_presses
+
                 #Bound search tree
-                if len(new_seq) < self.__joltage_min_presses_count_upperbound - 1:
+                if len(new_seq) < self.__joltage_min_presses_count_upperbound - 1 and optimistic_joltage_reduction >= remaining_joltage_sum:
                     set_joltage_rec(idx, new_seq, new_remaining_joltage)
 
         #Set some initial upperbound
         self.__joltage_min_presses_count_upperbound = sum(self.joltage_requirements) + 1
+
+        #Heuristic for order of buttons
+        max_joltage = max(self.joltage_requirements)
+        button_score = lambda button: sum([self.joltage_requirements[idx]/max_joltage for idx in button])
+
+        print(self.buttons)
+        self.buttons = sorted(self.buttons, key=button_score, reverse=True)
+        print(self.buttons)
+
+        self.largest_buttons = [max((len(button) for button in self.buttons[i:])) for i in range(len(self.buttons))]
 
         #Start recursion
         set_joltage_rec(0, [], self.joltage_requirements)
@@ -111,7 +138,11 @@ def solve(filepath):
 
     return min_total_indicator_presses, min_total_joltage_presses
 
-
 if __name__ == "__main__":
-    (filepath := sys.argv[1]) if len(sys.argv) >= 2 else (filepath := "input.txt")
+    parser = argparse.ArgumentParser()
+    parser.add_argument('filepath', nargs="?", default="input.txt", help="Default 'input.txt'")
+    args = parser.parse_args()
+
+    filepath = args.filepath
+
     print(solve(filepath)) if os.path.isfile(filepath) else print("There is no such file")
