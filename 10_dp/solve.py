@@ -1,5 +1,9 @@
-import os, sys, argparse
-from multiprocessing import Pool
+import os, argparse
+#from multiprocessing import Pool
+
+"""
+Solution for day 10b inspired by dynamic programming.
+"""
 
 LOG = False
 LOG_LEVEL = 0
@@ -165,7 +169,7 @@ class Machine:
 def solve_machine(pair):
     i, m = pair
     m.set_joltage()
-    print("Finished machine %s with %s presses"%(i+1, m.joltage_solution.button_presses.press_count))
+    log("Finished machine %s with %s presses"%(i+1, m.joltage_solution.button_presses.press_count), 1)
     return m.joltage_solution.button_presses.press_count
 
 def solve(filepath):
@@ -177,7 +181,6 @@ def solve(filepath):
             ind_diag = [False if char == "." else True for char in descr[0][1:-1]]
             sort_key = lambda button: len(button)
             buttons = sorted(([int(ind_idx) for ind_idx in button[1:-1].split(",")] for button in descr[1:-1]), key=sort_key, reverse=True)
-            print(buttons)
             jolt_req = [int(jolt) for jolt in descr[-1][1:-1].split(",")]
             machines.append(Machine(ind_diag, buttons, jolt_req))
 
@@ -196,6 +199,8 @@ def solve(filepath):
     for i, m in enumerate(machines):
         min_total_joltage_presses += solve_machine((i, m))
 
+
+    #Multithreading
 #    with Pool(SUBPROCESSES) as p:
 #        min_total_joltage_presses = sum(p.map(solve_machine, enumerate(machines)))
 
@@ -208,22 +213,37 @@ def solve(filepath):
     log("Finished with joltage!", 0)
 
     for m in machines:
-        print(m.buttons)
-        print(m.joltage_requirements)
-        #print(m.joltage_solution.button_presses.press_list)
-        print()
+        log(m.buttons, 2)
+        log(m.joltage_requirements, 2)
+        log(m.joltage_solution.button_presses.press_list, 2)
+        log("", 2)
 
     return min_total_indicator_presses, min_total_joltage_presses
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('filepath', nargs="?", default="input.txt", help="Default 'input.txt'")
+    parser.add_argument('-q', '--quiet', action='store_true', default=False, help="Only output plain results without text.")
     parser.add_argument('-l', '--log', action='store_true', default=False, help="Show log. Tuned by --loglevel")
-    parser.add_argument('-L', '--loglevel', type=int, default=-1, help="The higher the --loglevel=0,...,4, the more details. --loglevel=-1 is log all.")
+    parser.add_argument('-L', '--log-level', type=int, default=None, help="The higher the --log-level=0,...,4 the more details. --loglevel=-1 is log all.")
     args = parser.parse_args()
 
     filepath = args.filepath
-    LOG_LEVEL = args.loglevel
-    LOG = args.log or (LOG_LEVEL != -1)
 
-    print(solve(filepath)) if os.path.isfile(filepath) else print("There is no such file")
+    QUIET = args.quiet
+    LOG = not QUIET and (args.log or (args.log_level != None))
+    if args.log_level == None:
+        LOG_LEVEL = -1 # Default log-level when only setting --log
+    else:
+        LOG_LEVEL = args.log_level
+
+    if os.path.isfile(filepath):
+        min_total_indicator_presses, min_total_joltage_presses = solve(filepath)
+        if not QUIET:
+            #print("a: %s minimal total presses to set indicators required."%min_total_indicator_presses)
+            print("b: %s minimal total presses to set indicators required."%min_total_joltage_presses)
+        else:
+            print(min_total_indicator_presses)
+            print(min_total_joltage_presses)
+    else:
+        print("There is no such file")
