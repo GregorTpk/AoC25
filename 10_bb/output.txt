@@ -1,0 +1,5878 @@
+[[1, 3], [2, 3], [0, 2], [0, 1], [3], [2]]
+[[0, 2, 3, 4], [1, 2, 3, 4], [0, 1, 2], [2, 3], [0, 4]]
+[[0, 1, 2, 3, 4], [0, 1, 2, 4, 5], [0, 3, 4], [1, 2]]
+Finished with indicators!
+rem jolt is [3, 5, 4, 7]
+continue with [4, 1, 2, 3, 5]
+rem jolt is [3, 4, 4, 6]
+continue with [1, 2, 3, 5]
+rem jolt is [3, 4, 4, 5]
+continue with [5, 3, 2]
+rem jolt is [3, 4, 3, 4]
+continue with [2, 3]
+rem jolt is [3, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 2]
+rem jolt is [2, 3, 3, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 3]
+rem jolt is [2, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 3, 5]
+rem jolt is [2, 4, 3, 5]
+continue with [3, 5]
+rem jolt is [2, 4, 2, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 1]
+rem jolt is [2, 4, 2, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 5, 1]
+rem jolt is [2, 3, 4, 5]
+continue with [1, 5]
+rem jolt is [1, 3, 3, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1]
+rem jolt is [2, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 2]
+rem jolt is [2, 3, 3, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 3, 2]
+rem jolt is [3, 4, 3, 5]
+continue with [3, 2]
+rem jolt is [3, 4, 2, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1]
+rem jolt is [2, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 3]
+rem jolt is [2, 4, 2, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 2, 5, 3]
+rem jolt is [3, 4, 3, 5]
+continue with [5, 2, 3]
+rem jolt is [3, 4, 3, 4]
+continue with [2, 3]
+rem jolt is [3, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 3]
+rem jolt is [2, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 5]
+rem jolt is [2, 3, 3, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 4, 3]
+rem jolt is [2, 4, 2, 5]
+continue with [4, 3]
+rem jolt is [2, 4, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 5]
+rem jolt is [2, 4, 2, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 4]
+rem jolt is [1, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 4, 2]
+rem jolt is [3, 4, 2, 5]
+continue with [2, 4]
+rem jolt is [2, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 3]
+rem jolt is [3, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 4]
+rem jolt is [2, 4, 1, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 2, 5]
+rem jolt is [2, 3, 3, 5]
+continue with [5, 2]
+rem jolt is [2, 3, 3, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 5]
+rem jolt is [1, 3, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 4]
+rem jolt is [2, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 1, 4, 5]
+rem jolt is [2, 4, 3, 6]
+continue with [4, 1, 5]
+rem jolt is [1, 3, 3, 6]
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 4]
+rem jolt is [1, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 4]
+rem jolt is [1, 3, 2, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 5, 3]
+rem jolt is [2, 4, 2, 5]
+continue with [3, 5]
+rem jolt is [2, 4, 2, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 3]
+rem jolt is [2, 4, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 4]
+rem jolt is [1, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 5, 1]
+rem jolt is [2, 4, 3, 5]
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 1]
+rem jolt is [2, 4, 2, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 5]
+rem jolt is [2, 4, 2, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 1, 3]
+rem jolt is [2, 4, 2, 6]
+continue with [3, 1]
+rem jolt is [2, 4, 2, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 3]
+rem jolt is [2, 4, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 1]
+rem jolt is [1, 3, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 2, 4, 5]
+rem jolt is [2, 3, 4, 6]
+continue with [4, 2, 5]
+rem jolt is [2, 3, 3, 5]
+continue with [2, 5]
+rem jolt is [2, 3, 3, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 4]
+rem jolt is [1, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 4]
+rem jolt is [2, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 5, 4]
+rem jolt is [1, 3, 3, 6]
+continue with [5, 4]
+rem jolt is [1, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 1]
+rem jolt is [1, 3, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 2, 1]
+rem jolt is [2, 3, 4, 5]
+continue with [2, 1]
+rem jolt is [2, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 2]
+rem jolt is [2, 3, 3, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 4, 2]
+rem jolt is [2, 3, 3, 6]
+continue with [2, 4]
+rem jolt is [2, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1]
+rem jolt is [2, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 1]
+rem jolt is [1, 3, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1, 3, 4]
+rem jolt is [3, 4, 3, 6]
+continue with [3, 4, 1]
+rem jolt is [2, 4, 2, 6]
+continue with [4, 1]
+rem jolt is [1, 3, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 3]
+rem jolt is [2, 4, 2, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 3]
+rem jolt is [2, 4, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 2, 4]
+rem jolt is [3, 4, 2, 5]
+continue with [4, 2]
+rem jolt is [2, 3, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 4]
+rem jolt is [2, 4, 1, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 3]
+rem jolt is [3, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 2, 1]
+rem jolt is [2, 3, 3, 6]
+continue with [1, 2]
+rem jolt is [2, 3, 3, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 1]
+rem jolt is [1, 3, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 2]
+rem jolt is [2, 3, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 2, 1]
+rem jolt is [3, 4, 3, 5]
+continue with [2, 1]
+rem jolt is [2, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 3]
+rem jolt is [2, 4, 2, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 3]
+rem jolt is [3, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 2, 3, 5, 0]
+rem jolt is [3, 5, 3, 6]
+continue with [5, 0, 3, 2]
+rem jolt is [3, 5, 3, 5]
+continue with [2, 3, 0]
+rem jolt is [3, 5, 2, 5]
+continue with [0, 3]
+rem jolt is [2, 5, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 2]
+rem jolt is [2, 4, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 2]
+rem jolt is [3, 4, 2, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 2, 3]
+rem jolt is [3, 4, 3, 4]
+continue with [2, 3]
+rem jolt is [3, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 3]
+rem jolt is [2, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 5]
+rem jolt is [2, 3, 3, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 2, 5]
+rem jolt is [2, 4, 3, 5]
+continue with [5, 2]
+rem jolt is [2, 3, 3, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 5]
+rem jolt is [1, 4, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 0]
+rem jolt is [2, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 3, 5]
+rem jolt is [2, 5, 2, 5]
+continue with [3, 5]
+rem jolt is [2, 4, 2, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 0]
+rem jolt is [1, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 3]
+rem jolt is [2, 5, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 3, 0, 5]
+rem jolt is [2, 5, 2, 6]
+continue with [0, 5, 3]
+rem jolt is [2, 5, 2, 5]
+continue with [3, 5]
+rem jolt is [2, 4, 2, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 3]
+rem jolt is [2, 5, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 0]
+rem jolt is [1, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 5, 4]
+rem jolt is [1, 4, 2, 6]
+continue with [5, 4]
+rem jolt is [1, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 4]
+rem jolt is [1, 4, 1, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 5]
+rem jolt is [1, 4, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 5, 4]
+rem jolt is [2, 4, 2, 5]
+continue with [4, 5]
+rem jolt is [1, 3, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 3]
+rem jolt is [2, 4, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 3]
+rem jolt is [2, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 4, 3]
+rem jolt is [2, 5, 1, 6]
+continue with [4, 3]
+rem jolt is [2, 4, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 0]
+rem jolt is [2, 5, 1, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 0]
+rem jolt is [1, 4, 1, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 4, 5, 0]
+rem jolt is [2, 4, 3, 6]
+continue with [4, 5, 0]
+rem jolt is [1, 4, 2, 6]
+continue with [0, 5]
+rem jolt is [1, 4, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 4]
+rem jolt is [1, 4, 1, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 5]
+rem jolt is [1, 3, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 2, 0]
+rem jolt is [2, 4, 3, 5]
+continue with [0, 2]
+rem jolt is [2, 4, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 5]
+rem jolt is [1, 4, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 5]
+rem jolt is [2, 3, 3, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 0, 4]
+rem jolt is [2, 4, 2, 6]
+continue with [4, 0]
+rem jolt is [1, 4, 1, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 4]
+rem jolt is [2, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 0]
+rem jolt is [2, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 2, 5]
+rem jolt is [2, 3, 3, 5]
+continue with [5, 2]
+rem jolt is [2, 3, 3, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 5]
+rem jolt is [1, 3, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 2]
+rem jolt is [2, 3, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 3, 4, 0]
+rem jolt is [3, 5, 2, 6]
+continue with [4, 0, 3]
+rem jolt is [2, 5, 1, 6]
+continue with [0, 3]
+rem jolt is [2, 5, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 3]
+rem jolt is [2, 4, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 0]
+rem jolt is [1, 4, 1, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 2, 4]
+rem jolt is [2, 4, 2, 6]
+continue with [4, 2]
+rem jolt is [2, 3, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 4]
+rem jolt is [1, 4, 1, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 0]
+rem jolt is [2, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 3, 0]
+rem jolt is [3, 5, 2, 5]
+continue with [0, 3]
+rem jolt is [2, 5, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 2]
+rem jolt is [2, 4, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 3]
+rem jolt is [3, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 2, 3]
+rem jolt is [3, 4, 2, 5]
+continue with [3, 2]
+rem jolt is [3, 4, 2, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 3]
+rem jolt is [2, 4, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 2]
+rem jolt is [2, 3, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 3, 2, 5]
+rem jolt is [3, 4, 3, 5]
+continue with [2, 5, 3]
+rem jolt is [3, 4, 3, 4]
+continue with [3, 5]
+rem jolt is [2, 4, 2, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 2]
+rem jolt is [3, 4, 2, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 2]
+rem jolt is [2, 3, 3, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 4, 5]
+rem jolt is [2, 3, 3, 5]
+continue with [5, 4]
+rem jolt is [1, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 2]
+rem jolt is [2, 3, 3, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 2]
+rem jolt is [2, 3, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 3, 5]
+rem jolt is [2, 4, 2, 5]
+continue with [3, 5]
+rem jolt is [2, 4, 2, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 5]
+rem jolt is [1, 3, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 3]
+rem jolt is [2, 4, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 4, 2]
+rem jolt is [3, 4, 2, 5]
+continue with [4, 2]
+rem jolt is [2, 3, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 2]
+rem jolt is [3, 4, 2, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 4]
+rem jolt is [2, 4, 1, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 0, 4, 5, 1]
+rem jolt is [2, 5, 3, 7]
+continue with [1, 0, 5, 4]
+rem jolt is [1, 4, 3, 7]
+continue with [4, 0, 5]
+rem jolt is [1, 4, 2, 6]
+continue with [0, 5]
+rem jolt is [1, 4, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 5]
+rem jolt is [1, 3, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 4]
+rem jolt is [1, 4, 1, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 1, 5]
+rem jolt is [1, 3, 3, 6]
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 5]
+rem jolt is [1, 3, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 4]
+rem jolt is [1, 3, 2, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 1, 4]
+rem jolt is [1, 4, 2, 7]
+continue with [1, 4]
+rem jolt is [1, 3, 2, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 0]
+rem jolt is [1, 4, 1, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 1]
+rem jolt is [1, 4, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 1, 5]
+rem jolt is [1, 4, 3, 6]
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 5]
+rem jolt is [1, 4, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 1]
+rem jolt is [1, 4, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 5, 1, 4]
+rem jolt is [2, 4, 3, 6]
+continue with [5, 1, 4]
+rem jolt is [1, 3, 3, 6]
+continue with [1, 4]
+rem jolt is [1, 3, 2, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 5]
+rem jolt is [1, 3, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 1, 4]
+rem jolt is [2, 4, 2, 6]
+continue with [1, 4]
+rem jolt is [1, 3, 2, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 4]
+rem jolt is [2, 4, 1, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 1]
+rem jolt is [2, 4, 2, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 5, 3]
+rem jolt is [2, 4, 2, 5]
+continue with [5, 3]
+rem jolt is [2, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 4]
+rem jolt is [2, 4, 1, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 4]
+rem jolt is [1, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 5, 3]
+rem jolt is [2, 4, 3, 5]
+continue with [3, 5]
+rem jolt is [2, 4, 2, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 3]
+rem jolt is [2, 4, 2, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 5]
+rem jolt is [1, 3, 3, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 0, 1, 3]
+rem jolt is [2, 5, 3, 6]
+continue with [3, 0, 1]
+rem jolt is [2, 5, 2, 6]
+continue with [1, 0]
+rem jolt is [1, 4, 2, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 3]
+rem jolt is [2, 4, 2, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 0]
+rem jolt is [2, 5, 1, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 1, 3]
+rem jolt is [2, 4, 3, 5]
+continue with [1, 3]
+rem jolt is [2, 4, 2, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 5]
+rem jolt is [2, 4, 2, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 5]
+rem jolt is [1, 3, 3, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 0, 3]
+rem jolt is [2, 5, 2, 5]
+continue with [0, 3]
+rem jolt is [2, 5, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 5]
+rem jolt is [2, 4, 2, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 0]
+rem jolt is [1, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 1, 0]
+rem jolt is [1, 4, 3, 6]
+continue with [1, 0]
+rem jolt is [1, 4, 2, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 0]
+rem jolt is [1, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 5]
+rem jolt is [1, 3, 3, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 4, 1, 0]
+rem jolt is [2, 5, 2, 7]
+continue with [0, 1, 4]
+rem jolt is [1, 4, 2, 7]
+continue with [1, 4]
+rem jolt is [1, 3, 2, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 0]
+rem jolt is [1, 4, 1, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 0]
+rem jolt is [1, 4, 2, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 1, 0]
+rem jolt is [2, 5, 2, 6]
+continue with [0, 1]
+rem jolt is [1, 4, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 0]
+rem jolt is [2, 5, 1, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 3]
+rem jolt is [2, 4, 2, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 0, 4]
+rem jolt is [2, 5, 1, 6]
+continue with [4, 0]
+rem jolt is [1, 4, 1, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 3]
+rem jolt is [2, 4, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 0]
+rem jolt is [2, 5, 1, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 4, 3]
+rem jolt is [2, 4, 2, 6]
+continue with [3, 4]
+rem jolt is [2, 4, 1, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 1]
+rem jolt is [2, 4, 2, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 1]
+rem jolt is [1, 3, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 4, 0, 3]
+rem jolt is [2, 5, 2, 6]
+continue with [3, 0, 4]
+rem jolt is [2, 5, 1, 6]
+continue with [4, 0]
+rem jolt is [1, 4, 1, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 3]
+rem jolt is [2, 4, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 0]
+rem jolt is [2, 5, 1, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 3, 0]
+rem jolt is [2, 5, 2, 5]
+continue with [0, 3]
+rem jolt is [2, 5, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 0]
+rem jolt is [1, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 3]
+rem jolt is [2, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 4, 5]
+rem jolt is [2, 4, 2, 5]
+continue with [4, 5]
+rem jolt is [1, 3, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 3]
+rem jolt is [2, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 4]
+rem jolt is [2, 4, 1, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 0, 4]
+rem jolt is [1, 4, 2, 6]
+continue with [4, 0]
+rem jolt is [1, 4, 1, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 5]
+rem jolt is [1, 3, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 0]
+rem jolt is [1, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 2, 1, 4, 0]
+rem jolt is [2, 4, 4, 7]
+continue with [1, 2, 0, 4]
+rem jolt is [2, 4, 3, 7]
+continue with [0, 4, 2]
+rem jolt is [2, 4, 2, 6]
+continue with [2, 4]
+rem jolt is [2, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 2]
+rem jolt is [2, 4, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 0]
+rem jolt is [1, 4, 1, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 1, 4]
+rem jolt is [1, 4, 2, 7]
+continue with [4, 1]
+rem jolt is [1, 3, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 0]
+rem jolt is [1, 4, 1, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 1]
+rem jolt is [1, 4, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1, 4]
+rem jolt is [2, 3, 3, 6]
+continue with [4, 1]
+rem jolt is [1, 3, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 4]
+rem jolt is [2, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1]
+rem jolt is [2, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 2, 0]
+rem jolt is [2, 4, 3, 6]
+continue with [2, 0]
+rem jolt is [2, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 1]
+rem jolt is [1, 4, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 2]
+rem jolt is [2, 3, 3, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 0, 1, 5]
+rem jolt is [1, 4, 3, 7]
+continue with [0, 1, 5]
+rem jolt is [1, 4, 3, 6]
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 0]
+rem jolt is [1, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 0]
+rem jolt is [1, 4, 2, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 1, 4]
+rem jolt is [1, 3, 3, 6]
+continue with [4, 1]
+rem jolt is [1, 3, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 4]
+rem jolt is [1, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 5, 0]
+rem jolt is [1, 4, 2, 6]
+continue with [0, 5]
+rem jolt is [1, 4, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 0]
+rem jolt is [1, 4, 1, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 5]
+rem jolt is [1, 3, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 1, 0]
+rem jolt is [1, 4, 2, 7]
+continue with [1, 0]
+rem jolt is [1, 4, 2, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 0]
+rem jolt is [1, 4, 1, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 4]
+rem jolt is [1, 3, 2, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 5, 0, 2]
+rem jolt is [2, 4, 3, 6]
+continue with [0, 2, 5]
+rem jolt is [2, 4, 3, 5]
+continue with [5, 2]
+rem jolt is [2, 3, 3, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 0]
+rem jolt is [1, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 2]
+rem jolt is [2, 4, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 0, 4]
+rem jolt is [2, 4, 2, 6]
+continue with [4, 0]
+rem jolt is [1, 4, 1, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 4]
+rem jolt is [2, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 0]
+rem jolt is [2, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 2, 4]
+rem jolt is [2, 3, 3, 5]
+continue with [4, 2]
+rem jolt is [2, 3, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 4]
+rem jolt is [1, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 2]
+rem jolt is [2, 3, 3, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 5, 4]
+rem jolt is [1, 4, 2, 6]
+continue with [4, 5]
+rem jolt is [1, 3, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 4]
+rem jolt is [1, 4, 1, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 5]
+rem jolt is [1, 4, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 5, 0, 1]
+rem jolt is [2, 4, 4, 6]
+continue with [5, 0, 1]
+rem jolt is [1, 4, 3, 6]
+continue with [1, 0]
+rem jolt is [1, 4, 2, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 0]
+rem jolt is [1, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 2, 1]
+rem jolt is [2, 4, 3, 6]
+continue with [2, 1]
+rem jolt is [2, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 0]
+rem jolt is [1, 4, 2, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 2]
+rem jolt is [2, 4, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 5, 1]
+rem jolt is [2, 3, 4, 5]
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1]
+rem jolt is [2, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 5]
+rem jolt is [2, 3, 3, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 2, 5]
+rem jolt is [2, 4, 3, 5]
+continue with [2, 5]
+rem jolt is [2, 3, 3, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 0]
+rem jolt is [1, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 2]
+rem jolt is [2, 4, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 4, 1, 2]
+rem jolt is [2, 3, 4, 6]
+continue with [1, 2, 4]
+rem jolt is [2, 3, 3, 6]
+continue with [2, 4]
+rem jolt is [2, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 4]
+rem jolt is [1, 3, 2, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1]
+rem jolt is [2, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1, 5]
+rem jolt is [2, 3, 4, 5]
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 2]
+rem jolt is [2, 3, 3, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 2]
+rem jolt is [2, 3, 3, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 5, 2]
+rem jolt is [2, 3, 3, 5]
+continue with [2, 5]
+rem jolt is [2, 3, 3, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 4]
+rem jolt is [2, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 4]
+rem jolt is [1, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 4, 1]
+rem jolt is [1, 3, 3, 6]
+continue with [4, 1]
+rem jolt is [1, 3, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 5]
+rem jolt is [1, 3, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1, 0, 5, 3]
+rem jolt is [3, 5, 4, 6]
+continue with [0, 3, 1, 5]
+rem jolt is [2, 5, 3, 6]
+continue with [3, 1, 5]
+rem jolt is [2, 4, 3, 5]
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 5]
+rem jolt is [2, 4, 2, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 3]
+rem jolt is [2, 4, 2, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 5, 1]
+rem jolt is [1, 4, 3, 6]
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 1]
+rem jolt is [1, 4, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 5]
+rem jolt is [1, 4, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 0, 3]
+rem jolt is [2, 5, 2, 5]
+continue with [0, 3]
+rem jolt is [2, 5, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 5]
+rem jolt is [2, 4, 2, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 0]
+rem jolt is [1, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 1, 0]
+rem jolt is [2, 5, 2, 6]
+continue with [1, 0]
+rem jolt is [1, 4, 2, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 3]
+rem jolt is [2, 5, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 3]
+rem jolt is [2, 4, 2, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 3, 2, 0]
+rem jolt is [3, 5, 3, 5]
+continue with [3, 0, 2]
+rem jolt is [3, 5, 2, 5]
+continue with [2, 0]
+rem jolt is [2, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 2]
+rem jolt is [3, 4, 2, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 3]
+rem jolt is [2, 5, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 2, 5]
+rem jolt is [2, 4, 3, 5]
+continue with [2, 5]
+rem jolt is [2, 3, 3, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 5]
+rem jolt is [1, 4, 2, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 2]
+rem jolt is [2, 4, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 0, 5]
+rem jolt is [2, 5, 2, 5]
+continue with [5, 0]
+rem jolt is [1, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 5]
+rem jolt is [2, 4, 2, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 0]
+rem jolt is [2, 5, 1, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 5, 3]
+rem jolt is [3, 4, 3, 4]
+continue with [3, 5]
+rem jolt is [2, 4, 2, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 3]
+rem jolt is [3, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 2]
+rem jolt is [2, 3, 3, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 5, 2, 3]
+rem jolt is [3, 4, 4, 5]
+continue with [3, 5, 2]
+rem jolt is [3, 4, 3, 4]
+continue with [2, 5]
+rem jolt is [2, 3, 3, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 3]
+rem jolt is [3, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 5]
+rem jolt is [2, 4, 2, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1, 3]
+rem jolt is [3, 4, 3, 5]
+continue with [1, 3]
+rem jolt is [2, 4, 2, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 2]
+rem jolt is [3, 4, 2, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 2]
+rem jolt is [2, 3, 3, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 3, 5]
+rem jolt is [2, 4, 3, 5]
+continue with [5, 3]
+rem jolt is [2, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 1]
+rem jolt is [2, 4, 2, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1, 5]
+rem jolt is [2, 3, 4, 5]
+continue with [1, 5]
+rem jolt is [1, 3, 3, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 5]
+rem jolt is [2, 3, 3, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1]
+rem jolt is [2, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 1, 3, 2]
+rem jolt is [3, 5, 3, 6]
+continue with [3, 2, 1]
+rem jolt is [3, 4, 3, 5]
+continue with [1, 2]
+rem jolt is [2, 3, 3, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 1]
+rem jolt is [2, 4, 2, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 3]
+rem jolt is [3, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 0, 3]
+rem jolt is [3, 5, 2, 5]
+continue with [0, 3]
+rem jolt is [2, 5, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 3]
+rem jolt is [3, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 0]
+rem jolt is [2, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1, 0]
+rem jolt is [2, 4, 3, 6]
+continue with [0, 1]
+rem jolt is [1, 4, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 0]
+rem jolt is [2, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 2]
+rem jolt is [2, 3, 3, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 0, 3]
+rem jolt is [2, 5, 2, 6]
+continue with [0, 3]
+rem jolt is [2, 5, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 1]
+rem jolt is [2, 4, 2, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 1]
+rem jolt is [1, 4, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 5, 0, 2]
+rem jolt is [2, 4, 4, 6]
+continue with [2, 0, 5]
+rem jolt is [2, 4, 3, 5]
+continue with [5, 0]
+rem jolt is [1, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 5]
+rem jolt is [2, 3, 3, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 0]
+rem jolt is [2, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 0, 2]
+rem jolt is [2, 4, 3, 6]
+continue with [2, 0]
+rem jolt is [2, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 2]
+rem jolt is [2, 3, 3, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 1]
+rem jolt is [1, 4, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 2, 5]
+rem jolt is [2, 3, 4, 5]
+continue with [2, 5]
+rem jolt is [2, 3, 3, 4]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 5]
+rem jolt is [1, 3, 3, 5]
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1]
+rem jolt is [2, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 5, 1]
+rem jolt is [1, 4, 3, 6]
+continue with [5, 1]
+rem jolt is [1, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 0]
+rem jolt is [1, 4, 2, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [5, 0]
+rem jolt is [1, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [5]
+rem jolt is [1, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 1, 2, 4, 3]
+rem jolt is [3, 5, 3, 7]
+continue with [2, 3, 1, 4]
+rem jolt is [3, 4, 3, 6]
+continue with [1, 4, 3]
+rem jolt is [2, 4, 2, 6]
+continue with [3, 4]
+rem jolt is [2, 4, 1, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 3]
+rem jolt is [2, 4, 2, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 4]
+rem jolt is [1, 3, 2, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 4, 2]
+rem jolt is [2, 3, 3, 6]
+continue with [4, 2]
+rem jolt is [2, 3, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 2]
+rem jolt is [2, 3, 3, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 1]
+rem jolt is [1, 3, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 2, 3]
+rem jolt is [3, 4, 2, 5]
+continue with [2, 3]
+rem jolt is [3, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 4]
+rem jolt is [2, 4, 1, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 4]
+rem jolt is [2, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1, 3]
+rem jolt is [3, 4, 3, 5]
+continue with [3, 1]
+rem jolt is [2, 4, 2, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 2]
+rem jolt is [3, 4, 2, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 1]
+rem jolt is [2, 3, 3, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 2, 3, 4]
+rem jolt is [3, 5, 2, 6]
+continue with [4, 3, 2]
+rem jolt is [3, 4, 2, 5]
+continue with [2, 3]
+rem jolt is [3, 4, 2, 4]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 4]
+rem jolt is [2, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 4]
+rem jolt is [2, 4, 1, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 3, 4]
+rem jolt is [2, 5, 1, 6]
+continue with [4, 3]
+rem jolt is [2, 4, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 0]
+rem jolt is [1, 4, 1, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 3]
+rem jolt is [2, 5, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 4, 2]
+rem jolt is [2, 4, 2, 6]
+continue with [4, 2]
+rem jolt is [2, 3, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 2]
+rem jolt is [2, 4, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 4]
+rem jolt is [1, 4, 1, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 0, 2]
+rem jolt is [3, 5, 2, 5]
+continue with [2, 0]
+rem jolt is [2, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 2]
+rem jolt is [3, 4, 2, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 0]
+rem jolt is [2, 5, 1, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 4, 3, 0]
+rem jolt is [2, 5, 2, 7]
+continue with [0, 4, 3]
+rem jolt is [2, 5, 1, 6]
+continue with [4, 3]
+rem jolt is [2, 4, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 0]
+rem jolt is [2, 5, 1, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 4]
+rem jolt is [1, 4, 1, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 0, 1]
+rem jolt is [2, 5, 2, 6]
+continue with [0, 1]
+rem jolt is [1, 4, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 1]
+rem jolt is [2, 4, 2, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 3]
+rem jolt is [2, 5, 1, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 0, 1]
+rem jolt is [1, 4, 2, 7]
+continue with [0, 1]
+rem jolt is [1, 4, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 4]
+rem jolt is [1, 3, 2, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 4]
+rem jolt is [1, 4, 1, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 4, 1]
+rem jolt is [2, 4, 2, 6]
+continue with [4, 1]
+rem jolt is [1, 3, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 1]
+rem jolt is [2, 4, 2, 5]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 4]
+rem jolt is [2, 4, 1, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [0, 1, 2, 3]
+rem jolt is [3, 5, 3, 6]
+continue with [1, 2, 3]
+rem jolt is [3, 4, 3, 5]
+continue with [3, 2]
+rem jolt is [3, 4, 2, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 3]
+rem jolt is [2, 4, 2, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 2]
+rem jolt is [2, 3, 3, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 0, 3]
+rem jolt is [3, 5, 2, 5]
+continue with [3, 0]
+rem jolt is [2, 5, 1, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 2]
+rem jolt is [3, 4, 2, 4]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 0]
+rem jolt is [2, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 0, 1]
+rem jolt is [2, 5, 2, 6]
+continue with [0, 1]
+rem jolt is [1, 4, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 3]
+rem jolt is [2, 4, 2, 5]
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [3, 0]
+rem jolt is [2, 5, 1, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [3]
+rem jolt is [2, 4, 1, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 0, 1]
+rem jolt is [2, 4, 3, 6]
+continue with [1, 0]
+rem jolt is [1, 4, 2, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 2]
+rem jolt is [2, 3, 3, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 0]
+rem jolt is [2, 4, 2, 5]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 0, 2, 4]
+rem jolt is [2, 4, 3, 7]
+continue with [4, 0, 2]
+rem jolt is [2, 4, 2, 6]
+continue with [0, 2]
+rem jolt is [2, 4, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [2, 4]
+rem jolt is [2, 3, 2, 5]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 0]
+rem jolt is [1, 4, 1, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 2, 4]
+rem jolt is [2, 3, 3, 6]
+continue with [4, 2]
+rem jolt is [2, 3, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 1]
+rem jolt is [1, 3, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 2]
+rem jolt is [2, 3, 3, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 1, 0]
+rem jolt is [1, 4, 2, 7]
+continue with [0, 1]
+rem jolt is [1, 4, 2, 6]
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [4, 0]
+rem jolt is [1, 4, 1, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 4]
+rem jolt is [1, 3, 2, 6]
+continue with [4]
+rem jolt is [1, 3, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 2, 0]
+rem jolt is [2, 4, 3, 6]
+continue with [0, 2]
+rem jolt is [2, 4, 2, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 0]
+rem jolt is [1, 4, 2, 6]
+continue with [0]
+rem jolt is [1, 4, 1, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+continue with [1, 2]
+rem jolt is [2, 3, 3, 5]
+continue with [2]
+rem jolt is [2, 3, 2, 4]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+continue with [1]
+rem jolt is [1, 3, 2, 5]
+continue with []
+rem jolt is [1, 3, 1, 4]
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+pop recursion
+[3, 5, 4, 7]
+[[1, 3], [2, 3], [0, 2], [0, 1], [3], [2]]
+None
+20
+
