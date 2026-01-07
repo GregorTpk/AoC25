@@ -70,7 +70,8 @@ def load_graph(filepath: str) -> list[Node]:
 
     #Make connections between nodes
     #Improve O(n^2) by using binary search to find connection
-    #Though runtime is limited by DFS: O(nm)
+    #Though DFS has runtime O(n + m) \subset O(n^2),
+    #so there would be no worst case improvement for arbitrary inputs.
     for node in nodes:
         real_connections = []
         for pot_connection in nodes:

@@ -1,4 +1,4 @@
-import os, sys, time, argparse
+import os, argparse
 from itertools import product
 
 import numpy as np
@@ -41,22 +41,26 @@ def solve(filename):
 
             #Solve subproblems
             results_a += solve_over_F2(A,b)
-            results_b += solve_easy(A,c)
+            results_b += solve_over_N(A,c)
 
     return results_a, results_b
 
-def solve_easy(A, b):
+def solve_over_N(A, b):
+    """Solves Ax=b with values in N_0."""
+
     n_cols = len(A[0])
 
-    res = scipy.optimize.linprog(c=[1] * n_cols,
-                                 A_eq=A,
-                                 b_eq=b,
-                                 bounds=(0, None),
+    res = scipy.optimize.linprog(c=[1] * n_cols,    # Minimize 1-norm, i.e. c^T*x
+                                 A_eq=A,            # Button matrix
+                                 b_eq=b,            # Specified joltage levels
+                                 bounds=(0, None),  # Bound to non-negative components x_i
                                  method="highs",
-                                 integrality=True)
+                                 integrality=True)  # Constrain to integral x_i
     return round(res.fun)   
 
 def solve_over_F2(A, b):
+    """Solves Ax=b with values in the field F_2."""
+
     n_cols = len(A[0])
 
     solutions = list()
@@ -69,7 +73,7 @@ def solve_over_F2(A, b):
     A_aug = GF(np.column_stack((A, b)))
 
     rref = A_aug.row_reduce() # Gaussian Elimination to receive reduced row echelon form
-    
+
     N = A.null_space()  # Contains all vectors x satisfying the Ax=0
 
     if not QUIET:
@@ -108,13 +112,10 @@ if __name__ == "__main__":
     QUIET = args.quiet
 
     if os.path.isfile(filepath):
-        t_start = time.time()
         result_a, result_b = solve(filepath)
-        t_end = time.time()
         if not QUIET:
             print("Result Part a: ", result_a)
             print("Result Part b: ", result_b)
-            print("Time: ", t_end-t_start)
         else:
             print(result_a)
             print(result_b)

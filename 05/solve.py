@@ -1,4 +1,4 @@
-import os, sys, argparse
+import os, argparse
 
 type Interval = list[int, int]
 type IntervalList = list[Interval]
